@@ -1,0 +1,63 @@
+{
+  "name": "hpbuysell_btp_maintenance",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "@cap-js/postgres": "^3",
+    "@sap/cds": "^10.2.2",
+    "@sap/xssec": "^4",
+    "express": "^5.3.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3",
+    "@sap/cds-dk": "^10.2.1",
+    "cds-plugin-ui5": "^0.17.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-hpbuysell-btp": "cds watch --open hpbuysellbtp/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "postgres",
+        "credentials": {
+          "url": "postgres://44a63f735c23:034f5baface0d47cd03952b5183b1e6@localhost:33360/MqRFhFvoDLkp?schema=hpbuysell_btp_maintenance",
+          "schema": "hpbuysell_btp_maintenance",
+          "ssl": {
+            "rejectUnauthorized": false
+          }
+        }
+      },
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "talupuri-guru.charan-reddy@hp.com": {
+            "password": "123",
+            "roles": [
+              "MaintenanceManage"
+            ]
+          },
+          "talupuri-guru.charan-reddys@hp.com": {
+            "password": "123",
+            "roles": [
+              "MaintenanceViewer"
+            ]
+          }
+        }
+      },
+      "[production]": {
+        "auth": "xsuaa"
+      }
+    }
+  },
+  "sapux": [
+    "app/hpbuysell-btp",
+    "app/hpbuysell-btp-plugin"
+  ]
+}

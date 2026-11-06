@@ -1,0 +1,31 @@
+{
+  "sap.app": {
+    "id": "hpbuysellbtpplugin",
+    "type": "component",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "Banner Notification Plugin",
+    "description": "Displays active downtime banners in SAP Build Work Zone"
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.154.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "componentUsages": {},
+    "resources": {
+      "css": []
+    }
+  },
+  "sap.flp": {
+    "type": "plugin"
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "hpbuysell.btp.maintenance"
+  }
+}

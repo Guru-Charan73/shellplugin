@@ -1,0 +1,2734 @@
+#2026 11 05 12:40:24.023#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Operation ID: 120807e6-d916-11f1-9f2a-eeee0a8e9331#
+#2026 11 05 12:40:24.039#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.57.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 11 05 12:40:24.039#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Current user: andhur.rahulnair@ust.com#
+#2026 11 05 12:40:24.039#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Client space: code_migration_space#
+#2026 11 05 12:40:24.039#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Client organization: org-build-build-ai-subaccount#
+#2026 11 05 12:40:24.040#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#http-nio-0.0.0.0-8080-exec-89#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "hpbuysell_btp_maintenance",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.us10-001.hana.ondemand.com/api/v1/spaces/d78abd1d-2c2d-4a17-9528-b72f41af13a3/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "920c2277-0ded-44a9-9757-1e38ef8b93b8",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2026 11 05 12:40:24.371#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.371#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 11 05 12:40:24.372#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Size of mtars is 13,494,066 and size of extension descriptors is 0#
+#2026 11 05 12:40:24.401#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 13,494,066#
+#2026 11 05 12:40:24.401#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Deploying in org "org-build-build-ai-subaccount" and space "code_migration_space"#
+#2026 11 05 12:40:24.404#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 11 05 12:40:24.404#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23384#
+Step "Validate Parameters" finished#
+#2026 11 05 12:40:24.428#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.429#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+Step "Delete Remaining File Parts" finished#
+#2026 11 05 12:40:24.451#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.452#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 11 05 12:40:24.452#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: 920c2277-0ded-44a9-9757-1e38ef8b93b8#
+#2026 11 05 12:40:24.682#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 1,462#
+#2026 11 05 12:40:24.682#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:24.682#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 11 05 12:40:24.682#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [hpbuysell_btp_maintenance-auth]#
+#2026 11 05 12:40:24.689#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 11 05 12:40:24.689#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23386#
+Step "Process Archive" finished#
+#2026 11 05 12:40:24.722#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.723#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 11 05 12:40:24.723#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 11 05 12:40:24.723#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 11 05 12:40:24.723#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 11 05 12:40:24.723#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+Step "Process Extension Descriptors" finished#
+#2026 11 05 12:40:24.750#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.751#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 11 05 12:40:24.752#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 11 05 12:40:24.756#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+Step "Detect Schema Version" finished#
+#2026 11 05 12:40:24.780#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23389#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.781#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23389#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 11 05 12:40:24.783#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23389#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "hpbuysell_btp_maintenance",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "instances" : 1
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "no-route" : true,
+      "tasks" : [ {
+        "command" : "npm start",
+        "name" : "deploy-to-postgresql"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : { },
+    "parameters" : {
+      "type" : "existing-service",
+      "service-name" : "ust-portfolio-db"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "hpbuysell_btp_maintenance-${org}-${space}"
+      },
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 11 05 12:40:24.785#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23389#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 11 05 12:40:24.785#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23389#
+Step "Merge Descriptors" finished#
+#2026 11 05 12:40:24.813#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+[CollectCloudLoggingServiceParametersStep] Executing task "sid-9C5714DF-CEC8-4019-8873-CBBA99AC459A" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.815#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+Step "Collect Cloud Logging Service Parameters" finished#
+#2026 11 05 12:40:24.836#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:24.837#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 11 05 12:40:24.936#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Detecting MTA by id hpbuysell_btp_maintenance and namespace null#
+#2026 11 05 12:40:24.936#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=d849bf4e3e5020f25b06674f93271a32,!mta_namespace"...#
+#2026 11 05 12:40:24.988#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=d849bf4e3e5020f25b06674f93271a32,!mta_namespace"...#
+#2026 11 05 12:40:25.093#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "hpbuysell_btp_maintenance",
+    "version" : "1.0.0"
+  },
+  "applications" : [ {
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "metadata" : {
+      "guid" : "2652bd08-5dcf-4f5c-a7bf-7265cb8518df",
+      "createdAt" : [ 2026, 11, 5, 8, 49, 41 ],
+      "updatedAt" : [ 2026, 11, 5, 9, 28, 17 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "hpbuysell_btp_maintenance",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"hpbuysell_btp_maintenance-postgres-deployer\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "[]"
+      },
+      "labels" : {
+        "mta_id" : "d849bf4e3e5020f25b06674f93271a32"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "buildpacks" : [ "nodejs_buildpack" ],
+        "stack" : "cflinuxfs4"
+      }
+    },
+    "space" : {
+      "name" : "code_migration_space",
+      "metadata" : {
+        "guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+        "createdAt" : [ 2026, 5, 12, 0, 16, 18 ],
+        "updatedAt" : [ 2026, 5, 12, 0, 16, 18 ]
+      },
+      "organization" : {
+        "name" : "org-build-build-ai-subaccount",
+        "metadata" : {
+          "guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+          "createdAt" : [ 2025, 9, 5, 20, 24, 49 ],
+          "updatedAt" : [ 2026, 6, 2, 17, 9, 8 ]
+        }
+      }
+    },
+    "moduleName" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "boundMtaServices" : [ ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  }, {
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "metadata" : {
+      "guid" : "d2de1169-ef03-4836-b815-0157131cad91",
+      "createdAt" : [ 2026, 11, 5, 8, 49, 43 ],
+      "updatedAt" : [ 2026, 11, 5, 9, 28, 28 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "hpbuysell_btp_maintenance",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"hpbuysell_btp_maintenance-srv\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "********"
+      },
+      "labels" : {
+        "mta_id" : "d849bf4e3e5020f25b06674f93271a32"
+      }
+    },
+    "state" : "STARTED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "buildpacks" : [ "nodejs_buildpack" ],
+        "stack" : "cflinuxfs4"
+      }
+    },
+    "space" : {
+      "name" : "code_migration_space",
+      "metadata" : {
+        "guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+        "createdAt" : [ 2026, 5, 12, 0, 16, 18 ],
+        "updatedAt" : [ 2026, 5, 12, 0, 16, 18 ]
+      },
+      "organization" : {
+        "name" : "org-build-build-ai-subaccount",
+        "metadata" : {
+          "guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+          "createdAt" : [ 2025, 9, 5, 20, 24, 49 ],
+          "updatedAt" : [ 2026, 6, 2, 17, 9, 8 ]
+        }
+      }
+    },
+    "moduleName" : "hpbuysell_btp_maintenance-srv",
+    "boundMtaServices" : [ "********" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  } ],
+  "services" : [ {
+    "name" : "********",
+    "metadata" : {
+      "guid" : "22f02893-e69c-45e2-9e82-8a565fe24c54",
+      "createdAt" : [ 2026, 11, 5, 9, 26, 57 ],
+      "updatedAt" : [ 2026, 11, 5, 9, 26, 58 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "hpbuysell_btp_maintenance",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "********"
+      },
+      "labels" : {
+        "mta_id" : "d849bf4e3e5020f25b06674f93271a32"
+      }
+    },
+    "label" : "xsuaa",
+    "plan" : "application",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "********"
+  } ]
+}#
+#2026 11 05 12:40:25.093#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "hpbuysell_btp_maintenance" and version "1.0.0"#
+#2026 11 05 12:40:25.099#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Detecting backup mta by id "hpbuysell_btp_maintenance" and namespace "null"#
+#2026 11 05 12:40:25.099#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=d849bf4e3e5020f25b06674f93271a32,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 11 05 12:40:25.127#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=d849bf4e3e5020f25b06674f93271a32,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 11 05 12:40:25.183#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 11 05 12:40:25.183#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+Step "Detect Deployed MTA" finished#
+#2026 11 05 12:40:25.211#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.212#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 11 05 12:40:25.212#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 11 05 12:40:25.233#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2026 11 05 12:40:25.234#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "hpbuysell_btp_maintenance"#
+#2026 11 05 12:40:25.234#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 11 05 12:40:25.245#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "hpbuysell_btp_maintenance",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "hpbuysell_btp_maintenance-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "name" : "deploy-to-postgresql"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "ust-portfolio-db",
+      "generated-user" : "********",
+      "default-xsappname" : "hpbuysell_btp_maintenance-postgres",
+      "type" : "existing-service",
+      "default-service-name" : "hpbuysell_btp_maintenance-postgres",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5E5782E7"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "hpbuysell_btp_maintenance-${org}-${space}"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5168A0B8"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "hpbuysell_btp_maintenance",
+    "authorization-url" : "********",
+    "org-guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+    "org" : "org-build-build-ai-subaccount",
+    "deploy-target" : "org-build-build-ai-subaccount code_migration_space",
+    "enable-parallel-deployments" : true,
+    "space" : "code_migration_space",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20261105124024"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 11 05 12:40:25.247#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 11 05 12:40:25.247#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 11 05 12:40:25.251#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] Deployed MTA version: "1.0.0"#
+#2026 11 05 12:40:25.255#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 11 05 12:40:25.255#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 11 05 12:40:25.255#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+Step "Collect System Parameters" finished#
+#2026 11 05 12:40:25.289#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.289#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 11 05 12:40:25.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 11 05 12:40:25.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] MTA modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:25.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "hpbuysell_btp_maintenance",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "name" : "deploy-to-postgresql"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "ust-portfolio-db",
+      "generated-user" : "********",
+      "default-xsappname" : "hpbuysell_btp_maintenance-postgres",
+      "type" : "existing-service",
+      "default-service-name" : "hpbuysell_btp_maintenance-postgres",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5E5782E7"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "hpbuysell_btp_maintenance-org-build-build-ai-subaccount-code_migration_space"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5168A0B8"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "hpbuysell_btp_maintenance",
+    "authorization-url" : "********",
+    "org-guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+    "org" : "org-build-build-ai-subaccount",
+    "deploy-target" : "org-build-build-ai-subaccount code_migration_space",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "code_migration_space",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20261105124024"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 11 05 12:40:25.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 11 05 12:40:25.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+Step "Process Descriptor Step" finished#
+#2026 11 05 12:40:25.319#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.322#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 11 05 12:40:25.322#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 11 05 12:40:25.323#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:25.323#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Deployed modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:25.324#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] MTA modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:25.324#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "hpbuysell_btp_maintenance-auth" : "********",
+  "hpbuysell_btp_maintenance-postgres" : [ ]
+}#
+#2026 11 05 12:40:25.325#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "hpbuysell_btp_maintenance-srv",
+  "type" : "javascript.nodejs",
+  "path" : "hpbuysell_btp_maintenance-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "hpbuysell_btp_maintenance-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "app-name" : "hpbuysell_btp_maintenance-srv",
+    "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+  "type" : "javascript.nodejs",
+  "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "name" : "deploy-to-postgresql"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 11 05 12:40:25.325#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 11 05 12:40:25.327#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Getting service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:25.440#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 11 05 12:40:25.441#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 11 05 12:40:25.441#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 11 05 12:40:25.441#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+Step "Build Deploy Model" finished#
+#2026 11 05 12:40:25.476#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.476#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 11 05 12:40:25.478#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 11 05 12:40:25.478#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 11 05 12:40:25.478#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 11 05 12:40:25.481#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] MTA modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:25.481#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2026 11 05 12:40:25.481#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2026 11 05 12:40:25.482#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2026 11 05 12:40:25.483#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2026 11 05 12:40:25.483#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2026 11 05 12:40:25.485#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2026 11 05 12:40:25.485#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23391#
+Step "Build Undeploy Model" finished#
+#2026 11 05 12:40:25.511#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+[AddDomainsStep] Executing task "addDomainsTask" of process "12082f1c-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.513#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+[AddDomainsStep] Custom domains: []#
+#2026 11 05 12:40:25.513#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23388#
+Step "Add Domains" finished#
+#2026 11 05 12:40:25.892#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "12f219a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.893#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2026 11 05 12:40:25.894#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "********",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "hpbuysell_btp_maintenance",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "d849bf4e3e5020f25b06674f93271a32"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "********",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2026 11 05 12:40:25.896#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23390#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2026 11 05 12:40:25.970#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "132bc77e-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:25.971#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[CheckServiceOperationStateStep] Getting service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:26.084#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+Step "Check for service operations in Progress" finished#
+#2026 11 05 12:40:26.114#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "132bc77e-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:26.116#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:26.119#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:26.233#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "hpbuysell_btp_maintenance-auth" parameters from "xs-security.json"#
+#2026 11 05 12:40:26.283#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "********",
+  "metadata" : {
+    "guid" : "22f02893-e69c-45e2-9e82-8a565fe24c54",
+    "createdAt" : [ 2026, 11, 5, 9, 26, 57 ],
+    "updatedAt" : [ 2026, 11, 5, 9, 26, 58 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "hpbuysell_btp_maintenance",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "d849bf4e3e5020f25b06674f93271a32"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2026 11 05 12:40:26.283#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2026 11 05 12:40:26.283#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "attributes" : [ ],
+  "oauth2-configuration" : "********",
+  "role-templates" : [ ],
+  "scopes" : [ ],
+  "tenant-mode" : "dedicated",
+  "xsappname" : "hpbuysell_btp_maintenance-org-build-build-ai-subaccount-code_migration_space"
+}#
+#2026 11 05 12:40:26.283#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23385#
+Step "Determine update actions" finished#
+#2026 11 05 12:40:26.333#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "132bc77e-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:26.335#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+Step "Check for service binding or key creation" finished#
+#2026 11 05 12:40:26.364#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "132bc77e-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:26.366#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[UpdateServiceParametersStep] Updating service "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:26.369#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[UpdateServiceParametersStep] Updating service parameters for service "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:26.460#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[UpdateServiceParametersStep] Service "hpbuysell_btp_maintenance-auth" updated#
+#2026 11 05 12:40:26.460#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "hpbuysell_btp_maintenance-auth" : "UPDATE"
+}#
+#2026 11 05 12:40:26.461#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23387#
+Step "Update parameters" finished#
+#2026 11 05 12:40:36.657#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "132bc77e-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:36.658#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Polling service operations...#
+#2026 11 05 12:40:36.728#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Getting service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:36.893#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Last operation for service "hpbuysell_btp_maintenance-auth": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2026 11 05 12:40:36.893#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Service "hpbuysell_btp_maintenance-auth" updated#
+#2026 11 05 12:40:36.894#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2026 11 05 12:40:36.899#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2026 11 05 12:40:36.900#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Update parameters" finished#
+#2026 11 05 12:40:37.105#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "19cf4dcb-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.105#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2026 11 05 12:40:37.108#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Prepare Modules Deployment" finished#
+#2026 11 05 12:40:37.129#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] Executing task "computeNextModulesToDeployInParallel" of process "19cf4dcb-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.130#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] Computing modules for next parallel iteration...#
+#2026 11 05 12:40:37.131#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] Completed modules detected: []#
+#2026 11 05 12:40:37.131#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] All modules for deploy detected: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:37.131#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] Modules not for deploy detected: []#
+#2026 11 05 12:40:37.131#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ComputeNextModulesStep] Computed modules for next parallel iteration: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "hpbuysell_btp_maintenance-srv",
+  "type" : "javascript.nodejs",
+  "path" : "hpbuysell_btp_maintenance-srv",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "hpbuysell_btp_maintenance-srv",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "hpbuysell_btp_maintenance-srv",
+    "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "default-instances" : 1,
+    "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+    "instances" : 1,
+    "protocol" : "https"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+  "type" : "javascript.nodejs",
+  "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "default-instances" : 1,
+    "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+    "instances" : 1,
+    "no-route" : true,
+    "no-start" : true,
+    "protocol" : "https",
+    "tasks" : [ {
+      "command" : "npm start",
+      "name" : "deploy-to-postgresql"
+    } ]
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+} ]#
+#2026 11 05 12:40:37.131#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Compute Next Modules To Deploy" finished#
+#2026 11 05 12:40:37.230#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "19deddfe-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.230#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 11 05 12:40:37.233#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 11 05 12:40:37.236#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] MTA modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:37.238#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "hpbuysell_btp_maintenance",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "name" : "deploy-to-postgresql"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "ust-portfolio-db",
+      "generated-user" : "********",
+      "default-xsappname" : "hpbuysell_btp_maintenance-postgres",
+      "type" : "existing-service",
+      "default-service-name" : "hpbuysell_btp_maintenance-postgres",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5E5782E7"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "hpbuysell_btp_maintenance-org-build-build-ai-subaccount-code_migration_space"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5168A0B8"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "hpbuysell_btp_maintenance",
+    "authorization-url" : "********",
+    "org-guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+    "org" : "org-build-build-ai-subaccount",
+    "deploy-target" : "org-build-build-ai-subaccount code_migration_space",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "code_migration_space",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20261105124024"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 11 05 12:40:37.238#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 11 05 12:40:37.238#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Re-Process Descriptor Step" finished#
+#2026 11 05 12:40:37.256#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "19deddfe-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.257#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.260#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 11 05 12:40:37.260#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] Building configuration entries for org org-build-build-ai-subaccount, space code_migration_space, spaceId d78abd1d-2c2d-4a17-9528-b72f41af13a3 and namespace null!#
+#2026 11 05 12:40:37.261#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 11 05 12:40:37.261#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 11 05 12:40:37.261#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Build Application Deploy Model" finished#
+#2026 11 05 12:40:37.286#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "19deddfe-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.287#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.314#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Updating application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.319#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Getting process for application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.356#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Getting routes for application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.381#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Getting features for application "d2de1169-ef03-4836-b815-0157131cad91"#
+#2026 11 05 12:40:37.402#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Updating staging of application "hpbuysell_btp_maintenance-srv" to: {
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2026 11 05 12:40:37.604#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Application "hpbuysell_btp_maintenance-srv" updated#
+#2026 11 05 12:40:37.604#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Getting environment of application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.670#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CreateOrUpdateAppStep] Application "hpbuysell_btp_maintenance-srv" updated#
+#2026 11 05 12:40:37.670#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Create App" finished#
+#2026 11 05 12:40:37.739#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.739#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "hpbuysell_btp_maintenance-srv" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:37.739#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.767#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:37.797#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Getting binding of service instance "58bf16f5-4f4c-48ec-81b8-e84f71760942" with application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.825#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.826#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "hpbuysell_btp_maintenance-srv" and service instance "hpbuysell_btp_maintenance-auth"#
+#2026 11 05 12:40:37.826#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.829#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[CheckServiceBindingOperationStep] Service binding operation "0b059535-29c2-468a-85ef-7811de55b0b8" with type "create" is in state "succeeded"#
+#2026 11 05 12:40:37.829#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 11 05 12:40:37.859#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "1a3e3ca5-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.859#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 11 05 12:40:37.862#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 11 05 12:40:37.867#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] MTA modules: [hpbuysell_btp_maintenance-postgres-deployer, hpbuysell_btp_maintenance-srv]#
+#2026 11 05 12:40:37.868#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "hpbuysell_btp_maintenance",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-srv",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "type" : "javascript.nodejs",
+    "path" : "hpbuysell_btp_maintenance-postgres-deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-uri" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-build-build-ai-subaccount-code-migration-space-hpbu6554b79e",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "name" : "deploy-to-postgresql"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hpbuysell_btp_maintenance-postgres-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hpbuysell_btp_maintenance-postgres",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "ust-portfolio-db",
+      "generated-user" : "********",
+      "default-xsappname" : "hpbuysell_btp_maintenance-postgres",
+      "type" : "existing-service",
+      "default-service-name" : "hpbuysell_btp_maintenance-postgres",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5E5782E7"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "hpbuysell_btp_maintenance-org-build-build-ai-subaccount-code_migration_space"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "ORG_BUILD_BUILD_AI_SUBACCOUNT_CODE_MIGRATION_SPACE_HPBUY5168A0B8"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "hpbuysell_btp_maintenance",
+    "authorization-url" : "********",
+    "org-guid" : "00873fc0-d9a8-4806-a3a2-1ade765b5408",
+    "org" : "org-build-build-ai-subaccount",
+    "deploy-target" : "org-build-build-ai-subaccount code_migration_space",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "code_migration_space",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "d78abd1d-2c2d-4a17-9528-b72f41af13a3",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20261105124024"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 11 05 12:40:37.868#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 11 05 12:40:37.868#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Re-Process Descriptor Step" finished#
+#2026 11 05 12:40:37.891#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "1a3e3ca5-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.892#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:37.895#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 11 05 12:40:37.895#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] Building configuration entries for org org-build-build-ai-subaccount, space code_migration_space, spaceId d78abd1d-2c2d-4a17-9528-b72f41af13a3 and namespace null!#
+#2026 11 05 12:40:37.896#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 11 05 12:40:37.896#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 11 05 12:40:37.896#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Build Application Deploy Model" finished#
+#2026 11 05 12:40:37.853#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:37.881#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Getting binding of service instance "22f02893-e69c-45e2-9e82-8a565fe24c54" with application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.905#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[CheckServiceBindingOperationStep] Service binding operation "bae1911f-1fb1-4835-9cc0-11e45c96097b" with type "create" is in state "succeeded"#
+#2026 11 05 12:40:37.905#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 11 05 12:40:37.857#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.859#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "hpbuysell_btp_maintenance-srv" to service instance "ust-portfolio-db"#
+#2026 11 05 12:40:37.859#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.891#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "hpbuysell_btp_maintenance-srv": { }#
+#2026 11 05 12:40:37.925#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.926#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "hpbuysell_btp_maintenance-srv" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:37.926#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:37.926#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "hpbuysell_btp_maintenance-srv" to service instance "hpbuysell_btp_maintenance-auth"#
+#2026 11 05 12:40:37.926#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:37.955#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "hpbuysell_btp_maintenance-srv": { }#
+#2026 11 05 12:40:37.956#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "58bf16f5-4f4c-48ec-81b8-e84f71760942" with application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:37.983#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "hpbuysell_btp_maintenance-srv" and service instance "hpbuysell_btp_maintenance-auth"#
+#2026 11 05 12:40:37.983#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:37.983#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "0b059535-29c2-468a-85ef-7811de55b0b8"...#
+#2026 11 05 12:40:38.008#Z#WARN#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Cannot retrieve parameters of binding between application "hpbuysell_btp_maintenance-srv" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:38.009#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "hpbuysell_btp_maintenance-srv" and service instance "ust-portfolio-db": unbind - true bind - true#
+#2026 11 05 12:40:38.009#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Determine Application Service Binding Actions" finished#
+#2026 11 05 12:40:38.016#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "22f02893-e69c-45e2-9e82-8a565fe24c54" with application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:38.041#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "bae1911f-1fb1-4835-9cc0-11e45c96097b"...#
+#2026 11 05 12:40:38.076#Z#WARN#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Cannot retrieve parameters of binding between application "hpbuysell_btp_maintenance-srv" and service instance "hpbuysell_btp_maintenance-auth"#
+#2026 11 05 12:40:38.076#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "hpbuysell_btp_maintenance-srv" and service instance "hpbuysell_btp_maintenance-auth": unbind - true bind - true#
+#2026 11 05 12:40:38.076#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+Step "Determine Application Service Binding Actions" finished#
+#2026 11 05 12:40:38.034#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:38.036#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UnbindServiceFromApplicationStep] Unbinding service instance "ust-portfolio-db" from application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:38.039#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+[UnbindServiceFromApplicationStep] Unbinding application "hpbuysell_btp_maintenance-srv" from service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:38.100#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:38.101#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[UnbindServiceFromApplicationStep] Unbinding service instance "hpbuysell_btp_maintenance-auth" from application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:38.104#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+[UnbindServiceFromApplicationStep] Unbinding application "hpbuysell_btp_maintenance-srv" from service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:38.177#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44752#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:38.248#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44750#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:37.925#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "1a3e3ca5-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:37.926#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Getting application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:37.959#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Updating application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:37.963#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Getting process for application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:37.994#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Getting routes for application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:38.015#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Getting features for application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"#
+#2026 11 05 12:40:38.037#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Updating staging of application "hpbuysell_btp_maintenance-postgres-deployer" to: {
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2026 11 05 12:40:38.226#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Application "hpbuysell_btp_maintenance-postgres-deployer" updated#
+#2026 11 05 12:40:38.227#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Getting environment of application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:38.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CreateOrUpdateAppStep] Application "hpbuysell_btp_maintenance-postgres-deployer" updated#
+#2026 11 05 12:40:38.292#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Create App" finished#
+#2026 11 05 12:40:38.372#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:38.372#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "hpbuysell_btp_maintenance-postgres-deployer" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:38.373#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:38.401#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:38.430#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Getting binding of service instance "58bf16f5-4f4c-48ec-81b8-e84f71760942" with application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:38.464#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[CheckServiceBindingOperationStep] Service binding operation "6e4f3850-6107-499e-8eed-dd18663a5808" with type "create" is in state "succeeded"#
+#2026 11 05 12:40:38.464#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 11 05 12:40:38.485#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:38.486#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "hpbuysell_btp_maintenance-postgres-deployer" to service instance "ust-portfolio-db"#
+#2026 11 05 12:40:38.486#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Getting application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:38.514#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "hpbuysell_btp_maintenance-postgres-deployer": { }#
+#2026 11 05 12:40:38.551#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "hpbuysell_btp_maintenance-postgres-deployer" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:38.551#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:38.575#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "58bf16f5-4f4c-48ec-81b8-e84f71760942" with application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:38.608#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "6e4f3850-6107-499e-8eed-dd18663a5808"...#
+#2026 11 05 12:40:38.641#Z#WARN#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Cannot retrieve parameters of binding between application "hpbuysell_btp_maintenance-postgres-deployer" and service instance "ust-portfolio-db"#
+#2026 11 05 12:40:38.642#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "hpbuysell_btp_maintenance-postgres-deployer" and service instance "ust-portfolio-db": unbind - true bind - true#
+#2026 11 05 12:40:38.642#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Determine Application Service Binding Actions" finished#
+#2026 11 05 12:40:38.667#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:38.669#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[UnbindServiceFromApplicationStep] Unbinding service instance "ust-portfolio-db" from application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:38.671#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+[UnbindServiceFromApplicationStep] Unbinding application "hpbuysell_btp_maintenance-postgres-deployer" from service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:38.834#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44747#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:46.753#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:46.754#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Getting async job "f38a9577-0f5f-4072-b8f6-61ec8960b5ad"#
+#2026 11 05 12:40:46.778#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Getting service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:46.870#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Async service binding operation with id "f38a9577-0f5f-4072-b8f6-61ec8960b5ad" finished#
+#2026 11 05 12:40:46.872#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:46.905#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44758#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:46.906#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44758#
+[UnbindServiceFromApplicationStep] Getting async job "44785de0-1d25-4748-a09a-ec554a0e557d"#
+#2026 11 05 12:40:46.909#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:46.910#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Getting async job "6ed0ba2d-90d7-4ed3-ad3c-891f95a01028"#
+#2026 11 05 12:40:46.928#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Getting service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:46.929#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44758#
+[UnbindServiceFromApplicationStep] Getting service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:47.011#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[UnbindServiceFromApplicationStep] Async service binding operation with id "6ed0ba2d-90d7-4ed3-ad3c-891f95a01028" finished#
+#2026 11 05 12:40:47.012#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:47.013#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44758#
+[UnbindServiceFromApplicationStep] Async service binding operation with id "44785de0-1d25-4748-a09a-ec554a0e557d" finished#
+#2026 11 05 12:40:47.015#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44758#
+Step "Unbind Service from Application" finished#
+#2026 11 05 12:40:47.037#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:47.039#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[BindServiceToApplicationStep] Binding service instance "hpbuysell_btp_maintenance-auth" to application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:47.045#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+[BindServiceToApplicationStep] Binding service instance "hpbuysell_btp_maintenance-auth" to application "hpbuysell_btp_maintenance-srv" with parameters: { }#
+#2026 11 05 12:40:47.087#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44760#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:47.088#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44760#
+[BindServiceToApplicationStep] Binding service instance "ust-portfolio-db" to application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:47.093#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44760#
+[BindServiceToApplicationStep] Binding service instance "ust-portfolio-db" to application "hpbuysell_btp_maintenance-srv" with parameters: { }#
+#2026 11 05 12:40:47.104#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44756#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:47.106#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44756#
+[BindServiceToApplicationStep] Binding service instance "ust-portfolio-db" to application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:47.110#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44756#
+[BindServiceToApplicationStep] Binding service instance "ust-portfolio-db" to application "hpbuysell_btp_maintenance-postgres-deployer" with parameters: { }#
+#2026 11 05 12:40:47.159#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44759#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:47.204#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44760#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:47.218#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44756#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:56.836#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23410#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a300ae8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:56.838#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23410#
+[BindServiceToApplicationStep] Getting async job "52e5da69-66e8-4bd5-af50-51e7145235a2"#
+#2026 11 05 12:40:56.899#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23410#
+[BindServiceToApplicationStep] Getting service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:56.912#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a902c72-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:56.914#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[BindServiceToApplicationStep] Getting async job "1e7399e6-fca1-4c92-8d71-f116b353c81d"#
+#2026 11 05 12:40:56.959#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[BindServiceToApplicationStep] Getting service instance "ust-portfolio-db"...#
+#2026 11 05 12:40:56.969#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23406#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "1a3d51b0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:40:56.972#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23406#
+[BindServiceToApplicationStep] Getting async job "a9de3582-5098-4870-92a6-0cfe9edefa0c"#
+#2026 11 05 12:40:57.003#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23406#
+[BindServiceToApplicationStep] Getting service instance "hpbuysell_btp_maintenance-auth"...#
+#2026 11 05 12:40:57.016#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23410#
+[BindServiceToApplicationStep] Async service binding operation with id "52e5da69-66e8-4bd5-af50-51e7145235a2" finished#
+#2026 11 05 12:40:57.018#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23410#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:57.118#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[BindServiceToApplicationStep] Async service binding operation with id "1e7399e6-fca1-4c92-8d71-f116b353c81d" finished#
+#2026 11 05 12:40:57.118#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23406#
+[BindServiceToApplicationStep] Async service binding operation with id "a9de3582-5098-4870-92a6-0cfe9edefa0c" finished#
+#2026 11 05 12:40:57.119#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:57.121#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23406#
+Step "Bind Service to Application" finished#
+#2026 11 05 12:40:57.324#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:57.325#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "hpbuysell_btp_maintenance-postgres-deployer" changed: true#
+#2026 11 05 12:40:57.325#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+Step "Determine vcap services properties changed" finished#
+#2026 11 05 12:40:57.336#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:57.338#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "hpbuysell_btp_maintenance-srv" changed: true#
+#2026 11 05 12:40:57.338#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+Step "Determine vcap services properties changed" finished#
+#2026 11 05 12:40:57.360#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:57.361#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:40:57.361#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Uploading application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:57.366#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Getting application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:40:57.374#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:40:57.375#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:40:57.375#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Uploading application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:57.380#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:40:57.398#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Getting environment of application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:40:57.401#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Getting environment of application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:40:57.432#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+[UploadAppStep] Calculating application digest: "hpbuysell_btp_maintenance-srv"#
+#2026 11 05 12:40:57.434#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+[UploadAppStep] Calculating application digest: "hpbuysell_btp_maintenance-postgres-deployer"#
+#2026 11 05 12:40:57.593#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23408#
+Step "Upload App" finished#
+#2026 11 05 12:40:57.672#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23404#
+Step "Upload App" finished#
+#2026 11 05 12:41:06.953#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:06.954#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:06.955#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Upload of application: hpbuysell_btp_maintenance-srv started on instance: 0#
+#2026 11 05 12:41:06.955#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Uploading file "hpbuysell_btp_maintenance-srv/data.zip" for application "hpbuysell_btp_maintenance-srv"#
+#2026 11 05 12:41:07.127#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:07.128#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:07.129#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Upload of application: hpbuysell_btp_maintenance-postgres-deployer started on instance: 0#
+#2026 11 05 12:41:07.129#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Uploading file "hpbuysell_btp_maintenance-postgres-deployer/data.zip" for application "hpbuysell_btp_maintenance-postgres-deployer"#
+#2026 11 05 12:41:07.196#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Time elapsed for app binary download: 240 in millis#
+#2026 11 05 12:41:07.196#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Size of app hpbuysell_btp_maintenance-srv is 11,692,437 bytes#
+#2026 11 05 12:41:07.196#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Asynchronously uploading binaries for application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:07.230#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Time elapsed for app binary download: 100 in millis#
+#2026 11 05 12:41:07.230#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Size of app hpbuysell_btp_maintenance-postgres-deployer is 3,312,248 bytes#
+#2026 11 05 12:41:07.230#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Asynchronously uploading binaries for application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:07.484#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-1#
+[UploadAppStep] Started async upload of application "hpbuysell_btp_maintenance-postgres-deployer"#
+#2026 11 05 12:41:07.488#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Time elapsed for upload: 359 in millis#
+#2026 11 05 12:41:07.488#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Getting application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:07.494#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#pool-14-thread-2#
+[UploadAppStep] Started async upload of application "hpbuysell_btp_maintenance-srv"#
+#2026 11 05 12:41:07.498#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Time elapsed for upload: 544 in millis#
+#2026 11 05 12:41:07.498#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:07.506#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#App upload monitor: 77a6564b-2f08-4555-b62b-2ce1367a3f9d#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 11 05 12:41:07.514#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Getting environment of application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:41:07.519#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#App upload monitor: f3c248a3-dbf1-4ae0-ae83-793e85c88ce5#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 11 05 12:41:07.526#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Getting environment of application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:41:07.545#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+[UploadAppStep] Updating environment of application "hpbuysell_btp_maintenance-postgres-deployer"#
+#2026 11 05 12:41:07.564#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+[UploadAppStep] Updating environment of application "hpbuysell_btp_maintenance-srv"#
+#2026 11 05 12:41:07.626#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44777#
+Step "Upload App" finished#
+#2026 11 05 12:41:07.633#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44779#
+Step "Upload App" finished#
+#2026 11 05 12:41:12.530#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#App upload monitor: 77a6564b-2f08-4555-b62b-2ce1367a3f9d#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 11 05 12:41:12.543#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#App upload monitor: f3c248a3-dbf1-4ae0-ae83-793e85c88ce5#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 11 05 12:41:16.983#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:16.984#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:16.984#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[UploadAppStep] Checking upload status of application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:16.985#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[UploadAppStep] Getting package "77a6564b-2f08-4555-b62b-2ce1367a3f9d"...#
+#2026 11 05 12:41:17.009#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[UploadAppStep] Application "hpbuysell_btp_maintenance-postgres-deployer" uploaded#
+#2026 11 05 12:41:17.010#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+Step "Upload App" finished#
+#2026 11 05 12:41:17.025#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23420#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:17.026#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23420#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:17.026#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23420#
+[UploadAppStep] Checking upload status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:17.027#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23420#
+[UploadAppStep] Getting package "f3c248a3-dbf1-4ae0-ae83-793e85c88ce5"...#
+#2026 11 05 12:41:17.051#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-23420#
+Step "Upload App" finished#
+#2026 11 05 12:41:17.035#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[ScaleAppStep] Executing task "scaleAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:17.037#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[ScaleAppStep] Scaling application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:17.037#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[ScaleAppStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:17.069#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[ScaleAppStep] Getting process for application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:41:17.095#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+[ScaleAppStep] Application "hpbuysell_btp_maintenance-postgres-deployer" scaled#
+#2026 11 05 12:41:17.095#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44780#
+Step "Scale App" finished#
+#2026 11 05 12:41:17.123#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:17.124#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Getting application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:17.151#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:17.151#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:41:17.214#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Current state of application hpbuysell_btp_maintenance-postgres-deployer: STOPPED#
+#2026 11 05 12:41:17.214#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application hpbuysell_btp_maintenance-postgres-deployer: STOPPED#
+#2026 11 05 12:41:17.214#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application hpbuysell_btp_maintenance-postgres-deployer: [STAGE]#
+#2026 11 05 12:41:17.214#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 11 05 12:41:17.235#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[StageAppStep] Executing task "stageAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:17.236#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:17.238#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[StageAppStep] Staging application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:17.241#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+[StageAppStep] Creating build for package "77a6564b-2f08-4555-b62b-2ce1367a3f9d"...#
+#2026 11 05 12:41:17.727#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44787#
+Step "Stage App" finished#
+#2026 11 05 12:41:27.127#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[UploadAppStep] Executing task "uploadAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:27.127#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:27.127#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[UploadAppStep] Checking upload status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.128#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[UploadAppStep] Getting package "f3c248a3-dbf1-4ae0-ae83-793e85c88ce5"...#
+#2026 11 05 12:41:27.155#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[UploadAppStep] Application "hpbuysell_btp_maintenance-srv" uploaded#
+#2026 11 05 12:41:27.156#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+Step "Upload App" finished#
+#2026 11 05 12:41:27.057#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Executing task "stageAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:27.058#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:27.058#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:27.058#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Getting build "e46b7f41-23a8-4275-955a-d0f6f7e0160a"...#
+#2026 11 05 12:41:27.089#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-postgres-deployer": PENDING#
+#2026 11 05 12:41:27.090#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:27.173#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44794#
+Step "Stage App" finished#
+#2026 11 05 12:41:27.208#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[ScaleAppStep] Executing task "scaleAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:27.211#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[ScaleAppStep] Scaling application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.211#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[ScaleAppStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.235#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[ScaleAppStep] Getting process for application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:41:27.277#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[ScaleAppStep] Application "hpbuysell_btp_maintenance-srv" scaled#
+#2026 11 05 12:41:27.277#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+Step "Scale App" finished#
+#2026 11 05 12:41:27.295#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:27.296#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.325#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.399#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:41:27.432#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Current state of application hpbuysell_btp_maintenance-srv: STARTED#
+#2026 11 05 12:41:27.432#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application hpbuysell_btp_maintenance-srv: STARTED#
+#2026 11 05 12:41:27.432#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application hpbuysell_btp_maintenance-srv: [STOP, STAGE, START]#
+#2026 11 05 12:41:27.432#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 11 05 12:41:27.456#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StopAppStep] Executing task "stopAppTask" of process "25d945a2-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:27.458#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StopAppStep] Stopping application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.462#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StopAppStep] Stopping application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.589#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StopAppStep] Application "hpbuysell_btp_maintenance-srv" stopped#
+#2026 11 05 12:41:27.589#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StopAppStep] Getting environment of application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:41:27.620#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+Step "Stop App" finished#
+#2026 11 05 12:41:27.651#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StageAppStep] Executing task "stageAppTask" of process "37f09ec0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:27.652#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:27.653#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StageAppStep] Staging application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:27.656#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+[StageAppStep] Creating build for package "f3c248a3-dbf1-4ae0-ae83-793e85c88ce5"...#
+#2026 11 05 12:41:28.164#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44790#
+Step "Stage App" finished#
+#2026 11 05 12:41:37.111#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Executing task "stageAppTask" of process "37f09ec0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:37.112#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:37.112#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:37.112#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Getting build "0eabe761-5369-4492-86ac-483204e78aaf"...#
+#2026 11 05 12:41:37.117#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Executing task "stageAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:37.118#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:37.119#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:37.119#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Getting build "e46b7f41-23a8-4275-955a-d0f6f7e0160a"...#
+#2026 11 05 12:41:37.143#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-srv": PENDING#
+#2026 11 05 12:41:37.145#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:37.150#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-postgres-deployer": PENDING#
+#2026 11 05 12:41:37.152#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:37.227#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44800#
+Step "Stage App" finished#
+#2026 11 05 12:41:37.237#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44803#
+Step "Stage App" finished#
+#2026 11 05 12:41:47.142#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Executing task "stageAppTask" of process "25d6d498-d916-11f1-9f2a-eeee0a8e9331"...#
+#2026 11 05 12:41:47.143#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:47.143#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:47.143#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Getting build "e46b7f41-23a8-4275-955a-d0f6f7e0160a"...#
+#2026 11 05 12:41:47.148#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Executing task "stageAppTask" of process "37f09ec0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:47.149#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:47.150#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:47.150#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Getting build "0eabe761-5369-4492-86ac-483204e78aaf"...#
+#2026 11 05 12:41:47.174#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-postgres-deployer": STAGED#
+#2026 11 05 12:41:47.175#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:47.180#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-srv": PENDING#
+#2026 11 05 12:41:47.181#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:47.246#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44809#
+Step "Stage App" finished#
+#2026 11 05 12:41:47.246#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Getting build "e46b7f41-23a8-4275-955a-d0f6f7e0160a"...#
+#2026 11 05 12:41:47.275#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Binding droplet "7b945467-be58-4a49-b4a2-355302e535dc" to application "2652bd08-5dcf-4f5c-a7bf-7265cb8518df"...#
+#2026 11 05 12:41:47.329#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+[StageAppStep] Application "hpbuysell_btp_maintenance-postgres-deployer" staged#
+#2026 11 05 12:41:47.333#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44808#
+Step "Stage App" finished#
+#2026 11 05 12:41:47.474#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:47.475#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+Step "Prepare To Execute Tasks" finished#
+#2026 11 05 12:41:47.492#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:47.493#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:41:47.494#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+[ExecuteTaskStep] Executing task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:47.497#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+[ExecuteTaskStep] Running task on application "hpbuysell_btp_maintenance-postgres-deployer": {
+  "name" : "deploy-to-postgresql",
+  "command" : "npm start",
+  "limits" : { }
+}#
+#2026 11 05 12:41:47.820#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44807#
+Step "Execute Task" finished#
+#2026 11 05 12:41:57.209#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Executing task "stageAppTask" of process "37f09ec0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:57.211#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:57.212#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Checking status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:57.212#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Getting build "0eabe761-5369-4492-86ac-483204e78aaf"...#
+#2026 11 05 12:41:57.242#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Staging status of application "hpbuysell_btp_maintenance-srv": STAGED#
+#2026 11 05 12:41:57.244#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Getting application guid "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:57.328#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Getting build "0eabe761-5369-4492-86ac-483204e78aaf"...#
+#2026 11 05 12:41:57.358#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Binding droplet "703df70d-c738-464f-b170-355b6eeaff29" to application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:41:57.410#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+[StageAppStep] Application "hpbuysell_btp_maintenance-srv" staged#
+#2026 11 05 12:41:57.416#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44806#
+Step "Stage App" finished#
+#2026 11 05 12:41:57.344#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:57.345#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:41:57.346#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Getting task "dc55d907-70d2-419b-a9ec-a973b2f00b66"...#
+#2026 11 05 12:41:57.380#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 11 05 12:41:57.381#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:57.505#Z#ERROR#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Execution of task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer" failed.#
+#2026 11 05 12:41:57.508#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 11 05 12:41:57.511#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44805#
+Step "Execute Task" finished#
+#2026 11 05 12:41:57.451#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+[RestartAppStep] Executing task "startAppTask" of process "37f09ec0-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:57.452#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 11 05 12:41:57.459#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+[RestartAppStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:57.496#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+[RestartAppStep] Starting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:57.499#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+[RestartAppStep] Starting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:41:57.789#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44804#
+Step "Start App" finished#
+#2026 11 05 12:41:58.699#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20708#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:41:58.700#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20708#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:41:58.762#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20708#
+[ExecuteTaskStep] Executing task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:41:58.766#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20708#
+[ExecuteTaskStep] Running task on application "hpbuysell_btp_maintenance-postgres-deployer": {
+  "name" : "deploy-to-postgresql",
+  "command" : "npm start",
+  "limits" : { }
+}#
+#2026 11 05 12:41:59.059#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20708#
+Step "Execute Task" finished#
+#2026 11 05 12:42:07.479#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Executing task "startAppTask" of process "49ec0b88-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:07.480#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 11 05 12:42:07.531#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Checking status of application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:42:07.531#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Getting application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:42:07.574#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Getting instances for application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:42:07.616#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Application "hpbuysell_btp_maintenance-srv": 1 of 1 instances running (1 running)#
+#2026 11 05 12:42:07.665#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Getting routes for application "d2de1169-ef03-4836-b815-0157131cad91"...#
+#2026 11 05 12:42:07.697#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+[RestartAppStep] Application "hpbuysell_btp_maintenance-srv" started and available at "org-build-build-ai-subaccount-code-migration-space-hpbu5a9e946d.cfapps.us10-001.hana.ondemand.com"#
+#2026 11 05 12:42:07.701#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44810#
+Step "Start App" finished#
+#2026 11 05 12:42:07.611#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:07.612#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:42:07.613#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Getting task "c5bcb317-2cbf-4aab-b4c8-7b222147469d"...#
+#2026 11 05 12:42:07.638#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 11 05 12:42:07.639#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:42:07.720#Z#ERROR#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Execution of task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer" failed.#
+#2026 11 05 12:42:07.723#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 11 05 12:42:07.726#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44813#
+Step "Execute Task" finished#
+#2026 11 05 12:42:08.083#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20714#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:08.085#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20714#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:42:08.093#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20714#
+[ExecuteTaskStep] Executing task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:42:08.107#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20714#
+[ExecuteTaskStep] Running task on application "hpbuysell_btp_maintenance-postgres-deployer": {
+  "name" : "deploy-to-postgresql",
+  "command" : "npm start",
+  "limits" : { }
+}#
+#2026 11 05 12:42:08.402#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20714#
+Step "Execute Task" finished#
+#2026 11 05 12:42:17.416#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+[RestartAppStep] Executing task "startAppTask" of process "4fd47ea8-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:17.419#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 11 05 12:42:17.420#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+Step "Start App" finished#
+#2026 11 05 12:42:17.627#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44826#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "55aec164-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:17.628#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44826#
+Step "Prepare To Execute Tasks" finished#
+#2026 11 05 12:42:17.523#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:17.523#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:42:17.585#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Getting task "4fcb42cd-b879-42b9-b490-25bb7a416d84"...#
+#2026 11 05 12:42:17.628#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 11 05 12:42:17.629#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:42:17.773#Z#ERROR#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Execution of task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer" failed.#
+#2026 11 05 12:42:17.778#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 11 05 12:42:17.781#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44816#
+Step "Execute Task" finished#
+#2026 11 05 12:42:17.798#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44820#
+[PublishConfigurationEntriesStep] Executing task "publishProvidedDependenciesTask" of process "559fa6da-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:17.798#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44820#
+[PublishConfigurationEntriesStep] Publishing public provided dependencies for application "hpbuysell_btp_maintenance-srv"...#
+#2026 11 05 12:42:17.799#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44820#
+[PublishConfigurationEntriesStep] No public provided dependencies for publishing#
+#2026 11 05 12:42:17.799#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44820#
+Step "Publish Provided Dependencies" finished#
+#2026 11 05 12:42:17.870#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+[CreateOrUpdateServiceBrokerStep] Executing task "createOrUpdateServiceBrokerTask" of process "559fa6da-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:17.872#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+[CreateOrUpdateServiceBrokerStep] Creating service brokers...#
+#2026 11 05 12:42:17.874#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44819#
+Step "Create Or Update Service Broker " finished#
+#2026 11 05 12:42:20.497#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20723#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:20.498#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20723#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:42:20.501#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20723#
+[ExecuteTaskStep] Executing task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:42:20.505#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20723#
+[ExecuteTaskStep] Running task on application "hpbuysell_btp_maintenance-postgres-deployer": {
+  "name" : "deploy-to-postgresql",
+  "command" : "npm start",
+  "limits" : { }
+}#
+#2026 11 05 12:42:20.797#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-20723#
+Step "Execute Task" finished#
+#2026 11 05 12:42:27.624#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "43c1fae3-d916-11f1-85ae-eeee0a9e3b7a"...#
+#2026 11 05 12:42:27.625#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 11 05 12:42:27.676#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Getting task "a242baa3-8b8f-4c26-b441-79b098b20726"...#
+#2026 11 05 12:42:27.715#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 11 05 12:42:27.717#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Getting application guid "hpbuysell_btp_maintenance-postgres-deployer"...#
+#2026 11 05 12:42:27.832#Z#ERROR#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Execution of task "deploy-to-postgresql" on application "hpbuysell_btp_maintenance-postgres-deployer" failed.#
+#2026 11 05 12:42:27.835#Z#INFO#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 11 05 12:42:27.838#Z#DEBUG#120807e6-d916-11f1-9f2a-eeee0a8e9331.OPERATION#flowable-async-job-executor-thread-44821#
+Step "Execute Task" finished#

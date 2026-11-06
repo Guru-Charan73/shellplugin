@@ -1,0 +1,45 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.MaintenanceManage",
+      "description": "Create, update, and delete banners"
+    },
+    {
+      "name": "$XSAPPNAME.MaintenanceViewer",
+      "description": "View banners"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "MaintenanceManage",
+      "description": "Banner Maintenance Manager",
+      "scope-references": [
+        "$XSAPPNAME.MaintenanceManage"
+      ]
+    },
+    {
+      "name": "MaintenanceViewer",
+      "description": "Banner Maintenance Viewer",
+      "scope-references": [
+        "$XSAPPNAME.MaintenanceViewer"
+      ]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "BannerMaintenanceManager",
+      "description": "Manage downtime banners",
+      "role-template-references": [
+        "$XSAPPNAME.MaintenanceManage"
+      ]
+    },
+    {
+      "name": "BannerMaintenanceViewer",
+      "description": "View downtime banners",
+      "role-template-references": [
+        "$XSAPPNAME.MaintenanceViewer"
+      ]
+    }
+  ]
+}

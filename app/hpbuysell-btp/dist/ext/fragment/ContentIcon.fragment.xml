@@ -1,0 +1,12 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+
+    <Button
+        id="btnShowContentInfo"
+        icon="sap-icon://information"
+        type="Transparent"
+        tooltip="View Banner Content"
+        press=".extension.hpbuysellbtp.ext.controller.ListReportExt.onShowContent" />
+
+</core:FragmentDefinition>

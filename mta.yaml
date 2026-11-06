@@ -1,0 +1,186 @@
+_schema-version: "3.3.0"
+ID: hpbuysell_btp_maintenance
+version: 1.0.0
+description: "Banner Maintenance app with shell plugin for SAP Build Work Zone"
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production
+
+modules:
+  # ---- CAP Backend Service ----
+  - name: hpbuysell_btp_maintenance-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      instances: 1
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: hpbuysell_btp_maintenance-postgres
+      - name: hpbuysell_btp_maintenance-auth
+      - name: hpbuysell_btp_maintenance-destination
+
+  # ---- PostgreSQL Deployer ----
+  - name: hpbuysell_btp_maintenance-postgres-deployer
+    type: nodejs
+    path: gen/pg
+    properties:
+      NODE_TLS_REJECT_UNAUTHORIZED: "0"
+    parameters:
+      buildpack: nodejs_buildpack
+      no-route: true
+      no-start: true
+      tasks:
+        - name: deploy-to-postgresql
+          command: npm start
+    requires:
+      - name: hpbuysell_btp_maintenance-postgres
+
+  # ---- Maintenance App (Fiori Elements) ----
+  - name: hpbuysellbtp
+    type: html5
+    path: app/hpbuysell-btp
+    build-parameters:
+      build-result: dist
+      builder: custom
+      commands:
+        - npm install
+        - npx ui5 build --dest dist --include-task=generateManifestBundle --clean-dest
+        - bash -c "cd dist && zip -r hpbuysellbtp.zip ."
+      supported-platforms: []
+
+  # ---- Shell Plugin (Banner Notifications) ----
+  - name: hpbuysellbtpplugin
+    type: html5
+    path: app/hpbuysell-btp-plugin
+    build-parameters:
+      build-result: dist
+      builder: custom
+      commands:
+        - npm install
+        - npx ui5 build --dest dist --include-task=generateManifestBundle --clean-dest
+        - bash -c "cd dist && zip -r hpbuysellbtpplugin.zip ."
+      supported-platforms: []
+
+  # ---- HTML5 App Deployer (deploys both apps to HTML5 repo) ----
+  - name: hpbuysell_btp_maintenance-app-deployer
+    type: com.sap.application.content
+    path: .
+    requires:
+      - name: hpbuysell_btp_maintenance-html5-repo-host
+        parameters:
+          content-target: true
+    build-parameters:
+      build-result: resources
+      requires:
+        - name: hpbuysellbtp
+          artifacts:
+            - hpbuysellbtp.zip
+          target-path: resources/
+        - name: hpbuysellbtpplugin
+          artifacts:
+            - hpbuysellbtpplugin.zip
+          target-path: resources/
+
+  # ---- Destination Content (creates destinations for Work Zone) ----
+  - name: hpbuysell_btp_maintenance-destination-content
+    type: com.sap.application.content
+    requires:
+      - name: hpbuysell_btp_maintenance-destination
+        parameters:
+          content-target: true
+      - name: hpbuysell_btp_maintenance-auth
+        parameters:
+          service-key:
+            name: hpbuysell_btp_maintenance-auth-key
+      - name: hpbuysell_btp_maintenance-html5-repo-host
+        parameters:
+          service-key:
+            name: hpbuysell_btp_maintenance-html5-repo-host-key
+      - name: srv-api
+    parameters:
+      content:
+        instance:
+          destinations:
+            - Name: hpbuysell_btp_maintenance-srv-dest
+              Authentication: OAuth2UserTokenExchange
+              URL: ~{srv-api/srv-url}
+              TokenServiceInstanceName: hpbuysell_btp_maintenance-auth
+              TokenServiceKeyName: hpbuysell_btp_maintenance-auth-key
+              HTML5.DynamicDestination: true
+              HTML5.ForwardAuthToken: true
+              sap.cloud.service: hpbuysell.btp.maintenance
+            - Name: hpbuysell_btp_maintenance-html5-repo-host
+              ServiceInstanceName: hpbuysell_btp_maintenance-html5-repo-host
+              ServiceKeyName: hpbuysell_btp_maintenance-html5-repo-host-key
+              sap.cloud.service: hpbuysell.btp.maintenance
+          existing_destinations_policy: update
+    build-parameters:
+      no-source: true
+
+resources:
+  # ---- PostgreSQL Database ----
+  - name: hpbuysell_btp_maintenance-postgres
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: ust-portfolio-db
+
+  # ---- XSUAA (Authentication & Authorization) ----
+  - name: hpbuysell_btp_maintenance-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: hpbuysell_btp_maintenance-${org}-${space}
+        tenant-mode: dedicated
+        oauth2-configuration:
+          credential-types:
+            - binding-secret
+            - x509
+
+  # ---- HTML5 Application Repository ----
+  - name: hpbuysell_btp_maintenance-html5-repo-host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-host
+
+  # ---- Destination Service ----
+  - name: hpbuysell_btp_maintenance-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+      config:
+        HTML5Runtime_enabled: true
+        init_data:
+          instance:
+            destinations:
+              - Authentication: NoAuthentication
+                Name: ui5
+                ProxyType: Internet
+                Type: HTTP
+                URL: https://ui5.sap.com
+              - Authentication: NoAuthentication
+                HTML5.DynamicDestination: true
+                HTML5.ForwardAuthToken: true
+                Name: srv-api
+                ProxyType: Internet
+                Type: HTTP
+                URL: ~{srv-api/srv-url}
+            existing_destinations_policy: update
+    requires:
+      - name: srv-api

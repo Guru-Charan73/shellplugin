@@ -1,0 +1,8 @@
+specVersion: "4.0"
+metadata:
+  name: hpbuysellbtpplugin
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
